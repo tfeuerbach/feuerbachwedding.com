@@ -508,17 +508,36 @@
 						<p>Use the RSVP form below to let us know if you'll be able to make it</p>
 					</div>
 				</div>
-				<form id="my-form" action="https://formspree.io/f/mjvlkavg" method="POST">
-					<label>Email:</label>
-					<input type="email" name="email" />
-					<label>Message:</label>
-					<input type="text" name="message" />
-					<button id="my-form-button">Submit</button>
-					<p id="my-form-status"></p>
-				  </form>
+				<div class="form-wrapper">
+					<form id="my-form" accept-charset="utf-8" action="https://formspree.io/f/mjvlkavg" method="POST">
+						<fieldset id="fs-frm-inputs">
+					  	<label for="full-name">Full Name</label>
+					  	<input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+					  	<label for="email">Email:</label>
+					  	<input type="email" name="email" id="email" placeholder="your@email.com" required="">
+					  	<label for="attending">Will you be attending?</label>
+					  	<select name="attending" id="attending" required="">
+							<option value="" selected="" disabled="">Select</option>
+						  	<option value="Yes">Yes</option>
+						  	<option value="No">No</option>
+					  	</select>
+					  	<label for="diet">Diet?</label>
+					  	<select name="diet" id="diet" required="">
+						  	<option value="None" selected="">None</option>
+						  	<option value="Fish Only">Fish Only</option>
+						  	<option value="Vegetarian">Vegetarian</option>
+					  	</select>
+					  	<input type="hidden" name="_subject" id="email-subject" value="RSVP">
+						</fieldset>
+						<button id="my-form-button" value="RSVP">RSVP</button>
+						<p id="my-form-status"></p>
+				  	</form>
+				</div>
 			</div>
 		</section>
-		<!-- <section id="invitation" class="section invitation section-gray">
+		<!-- Deprecated form.php element -->
+		<!--
+			<section id="invitation" class="section invitation section-gray">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center heading">
