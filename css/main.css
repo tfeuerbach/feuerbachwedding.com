@@ -1165,20 +1165,20 @@ img {
 	color: #000;
 }
 /* Testimonials */
-.testimonials .wrap-testimony {
+.testimonials .wrap-testimony .faq {
 	position: relative;
 }
-.testimonials .testimony-slide {
+.testimonials .testimony-slide .faq {
 	text-align: center;
 }
-.testimonials .testimony-slide span {
+.testimonials .testimony-slide .faq span {
 	font-size: 12px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: 700;
 	display: block;
 }
-.testimonials .testimony-slide figure {
+.testimonials .testimony-slide .faq figure {
 	margin-bottom: 10px;
 	display: -moz-inline-stack;
 	display: inline-block;
@@ -1187,12 +1187,12 @@ img {
 	width: 100px;
 	height: 100px;
 }
-.testimonials .testimony-slide figure img {
+.testimonials .testimony-slide .faq figure img {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
 }
-.testimonials .testimony-slide blockquote {
+.testimonials .testimony-slide .faq blockquote {
 	border: none;
 	margin: 30px auto;
 	width: 100%;
@@ -1200,17 +1200,17 @@ img {
 	border-radius: 4px;
 }
 @media only screen and (min-width: 992px) {
-	.testimonials .testimony-slide blockquote {
+	.testimonials .testimony-slide .faq blockquote {
 		width: 50%;
 	}
 }
-.testimonials .testimony-slide blockquote p {
+.testimonials .testimony-slide .faq blockquote p {
 	font-style: italic;
 	color: #8f989f;
 	font-size: 20px;
 	line-height: 1.6em;
 }
-.testimonials .testimony-slide.active {
+.testimonials .faq .testimony-slide.active {
 	display: block;
 }
 /* Invitation */
