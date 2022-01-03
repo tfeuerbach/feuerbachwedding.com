@@ -10,7 +10,7 @@
 	});
 
 	// Form
-	/* var contactForm = function() {
+	var contactForm = function() {
 		(function ($, window, document, undefined) {
 		var $form = $('#contact-form');
 		$form.submit(function (e) {
@@ -57,7 +57,7 @@
 			e.preventDefault();
 		});
 	}(jQuery, window, document));
-	} */
+	}
 
 	// Offcanvas
 	var offcanvasMenu = function() {
