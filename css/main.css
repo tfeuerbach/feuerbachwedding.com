@@ -612,11 +612,11 @@ img {
 	left: 0;
 	transition: all .2s ease-out;
 }
-.nav-toggle.nav-white > i {
+.nav-toggle.nav-black > i {
 	color: #FFFFFF;
 	background: #FFFFFF;
 }
-.nav-toggle.nav-white > i::before, .nav-toggle.nav-white > i::after {
+.nav-toggle.nav-black > i::before, .nav-toggle.nav-black > i::after {
 	background: #FFFFFF;
 }
 .nav-toggle i::before {
@@ -1726,7 +1726,6 @@ footer .copyright .block {
 @media only screen and (min-width: 768px) {
 	.timer {
 		display: -ms-flexbox;
-		display: flex;
 		-ms-flex-align: center;
 		align-items: center;
 		-ms-flex-pack: justify;
