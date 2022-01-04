@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Thomas & Estefania - RSVP</title>
+	<title>Thomas and Estefania - Memories</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -45,7 +45,7 @@
 
 	</head>
 
-<body class="pt_rsvp">
+<body class="pt_gallery">
 	<div class="loader"></div>
 	<div class="main">
 		<!-- Navigation -->
@@ -53,14 +53,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="logo"><a href="index.html">T & E</a></div>
+						<div id="logo"><a href="index.html">Belle</a></div>
 					</div>
 					<div class="col-xs-10 menu-2">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About us</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="rsvp.html">RSVP</a></li>
+							<li><a href="where-to-stay.html">Where to Stay</a></li>
+							<li><a href="wedding-photos.html">Wedding Photos</a></li>
 						</ul>
 					</div>
 				</div>
@@ -72,75 +71,101 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<h1>RSVP</h1>
+						<h1>Memories</h1>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- Section Video invitation -->
-		<section id="invitation" class="section invitation section-gray">
+		<!-- Section Gallery -->
+		<section id="gallery" class="section section-gray gallery">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center heading">
-						<h2>Video invitation</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+						<span>Our Memories</span>
+						<h2>Photos from our time on this earth...</h2>
+						<p>Like sands through the hourglass, so are the days of our lives.</p>
 					</div>
 				</div>
 				<div class="row">
-					<div class="form-wrapper col-md-6">
-						<form action="form.php" id="contact-form" class="form-horizontal" method="post">
-							<h3 class="invitation_heading">Will you be attending the wedding?</h3>
-							<div class="row">
-								<div class="form-field switch-field col-sm-12">
-									<input type="radio" name="rdo" id="yes"/>
-									<input type="radio" name="rdo" id="no"/>
-									<div class="switch">
-										<label for="yes">Yes</label>
-										<label for="no">No</label>
-										<span></span>
-									</div>
-								</div>
+					<div class="col-sm-12">
+						<div class="button-group filters-button-group">
+							<button class="button is-checked" data-filter="*">All</button>
+							<button class="button" data-filter=".moments">moments</button>
+							<button class="button" data-filter=".friends">friends</button>
+							<button class="button" data-filter=".banguet">banguet</button>
+							<button class="button" data-filter=".family">family</button>
+							<button class="button" data-filter=".party">party</button>
+						</div>
+						<div class="grid">
+							<div class="grid-sizer"></div>
+							<div class="grid-item grid-item--width moments friends">
+								<a href="img/gallery-1.jpg" data-lightbox="roadtrip">
+									<img src="img/gallery-1.jpg" alt="gallery">
+								</a>
 							</div>
-							<div class="row">
-								<div id="name-field" class="form-field col-sm-6">
-									<label for="form-name" class="control-label">Your name*</label>
-									<input type="text" class="form-control" id="form-name" name="form-name" required="">
-								</div>
-								<div id="email-field" class="form-field col-sm-6">
-									<label for="form-email" class="control-label">Email*</label>
-									<input type="email" class="form-control" id="form-email" name="form-email" required="">
-								</div>
+							<div class="grid-item moments banguet party">
+								<a href="img/gallery-2.jpg" data-lightbox="roadtrip">
+									<img src="img/gallery-2.jpg" alt="gallery">
+								</a>
 							</div>
-							<h3 class="invitation_heading">Who else is comming with you?</h3>
-							<div class="row">
-								<div id="guest-name-field" class="form-field col-sm-8">
-									<label for="form-guest-name" class="control-label">Guest name</label>
-									<input type="text" class="form-control" id="form-guest-name" name="form-name">
-								</div>
-								<div class="form-field col-sm-4 text-center">
-									<button type="button" class="add-button">Add guest</button>
-								</div>
+							<div class="grid-item friends moments party">
+								<a href="img/gallery-3.jpg" data-lightbox="roadtrip">
+									<img src="img/gallery-3.jpg" alt="gallery">
+								</a>
 							</div>
-							<div class="row">
-								<div class="guest-list form-field col-sm-12"></div>
+							<div class="grid-item banguet family">
+								<a href="img/gallery-4.jpg" data-lightbox="roadtrip">
+									<img src="img/gallery-4.jpg" alt="gallery">
+								</a>
 							</div>
-							<div class="row">
-								<div class="col-sm-12 text-center">
-									<button type="submit" class="btn btn-outline-black btn-lg send-button">Submit</button>
-								</div>
+							<div class="grid-item friends family">
+								<a href="img/gallery-5.jpg" data-lightbox="roadtrip">
+									<img src="img/gallery-5.jpg" alt="gallery">
+								</a>
 							</div>
-						</form>
-					</div>
-
-					<div class="col-md-6">
-						<div class="video bg">
-							<a href="https://www.youtube.com/watch?v=KPi8uXHRfYg" class="popup-youtube">
-								<i class="fa fa-youtube-play fa-5x"></i>
-							</a>
-							<div class="overlay"></div>
+							<div class="grid-item family party">
+								<a href="img/gallery-6.jpg" data-lightbox="roadtrip">
+									<img src="img/gallery-6.jpg" alt="gallery">
+								</a>
+							</div>
+							<div class="grid-item moments family">
+								<a href="img/gallery-7.jpg" data-lightbox="roadtrip">
+									<img src="img/gallery-7.jpg" alt="gallery">
+								</a>
+							</div>
+							<div class="grid-item banguet family">
+								<a href="img/gallery-8.jpg" data-lightbox="roadtrip">
+									<img src="img/gallery-8.jpg" alt="gallery">
+								</a>
+							</div>
+							<div class="grid-item friends party">
+								<a href="img/gallery-9.jpg" data-lightbox="roadtrip">
+									<img src="img/gallery-9.jpg" alt="gallery">
+								</a>
+							</div>
+							<div class="grid-item banguet moments">
+								<a href="img/gallery-10.jpg" data-lightbox="roadtrip">
+									<img src="img/gallery-10.jpg" alt="gallery">
+								</a>
+							</div>
+							<div class="grid-item friends party">
+								<a href="img/gallery-11.jpg" data-lightbox="roadtrip">
+									<img src="img/gallery-11.jpg" alt="gallery">
+								</a>
+							</div>
+							<div class="grid-item moments family">
+								<a href="img/gallery-12.jpg" data-lightbox="roadtrip">
+									<img src="img/gallery-12.jpg" alt="gallery">
+								</a>
+							</div>
+							<div class="grid-item banguet party friends">
+								<a href="img/gallery-13.jpg" data-lightbox="roadtrip">
+									<img src="img/gallery-13.jpg" alt="gallery">
+								</a>
+							</div>
 						</div>
 					</div>
-				</div>
+				</div> <!-- /.row -->
 			</div>
 		</section>
 		<!-- Section banner-bottom -->
@@ -148,10 +173,6 @@
 		    <div class="overlay"></div>
 		    <div class="container">
 		        <div class="row">
-		            <div class="col-md-12 text-center">
-		                <p>Thomas and Estefania.</p>
-		            </div>
-		        </div>
 		        <div class="row copyright">
 		            <div class="col-md-12 text-center">
 		                <p>
