@@ -1274,8 +1274,8 @@ img {
 	background-image: url(../img/header-bg.jpg);
 }
 .banner_bottom {
-	padding: 10em 0 3em;
-	background-image: url(../img/banner-bottom.jpg);
+	padding: 2em 0 0em;
+	background-color: #C1C9C4;
 }
 .banner_bottom h2 {
 	margin: 0;
