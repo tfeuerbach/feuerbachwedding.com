@@ -1278,6 +1278,7 @@ img {
 	background-color: #C1C9C4;
 }
 .banner_bottom h2 {
+	padding-top: 1em;
 	margin: 0;
 	font-size: 60px;
 	color: #FFFFFF;
