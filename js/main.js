@@ -9,7 +9,7 @@
 		
 	});
 
-	// Form
+	// Form (DEPRECATED)
 	var contactForm = function() {
 		(function ($, window, document, undefined) {
 		var $form = $('#contact-form');
@@ -176,7 +176,7 @@
 		});
 	};
 
-	// Testimonials
+	// Testimonials (Not In Use)
 	var testimonialCarousel = function(){
 		var owl = $('.owl-carousel-fullwidth');
 		owl.owlCarousel({
@@ -282,7 +282,7 @@
 		}
 	}
 
-	// Form
+	// Form (DEPRECATED)
 	function filledLabels() {
 		var inputFields = $('.control-label').next();
 		inputFields.each(function(){
