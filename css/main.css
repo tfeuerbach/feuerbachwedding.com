@@ -1,3 +1,4 @@
+@import url(//db.onlinewebfonts.com/c/be7d00cc3e81bca7bd01f0924f5d5b73?family=Dancing+Script);
 .h-flex {
 	display: -ms-flexbox;
 	display: flex;
@@ -16,13 +17,7 @@
 	font-weight: normal;
 	font-style: normal;
 }
-@font-face {
-	font-family: 'Good Vibes Pro';
-	src: url("../fonts/GoodVibesPro/GoodVibesPro.eot");
-	src: url("../fonts/GoodVibesPro/GoodVibesPro.eot?#iefix") format("embedded-opentype"), url("../fonts/GoodVibesPro/GoodVibesPro.woff") format("woff"), url("../fonts/GoodVibesPro/GoodVibesPro.ttf") format("truetype");
-	font-weight: normal;
-	font-style: normal;
-}
+@font-face {font-family: "Dancing Script"; src: url("//db.onlinewebfonts.com/t/be7d00cc3e81bca7bd01f0924f5d5b73.eot"); src: url("//db.onlinewebfonts.com/t/be7d00cc3e81bca7bd01f0924f5d5b73.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/be7d00cc3e81bca7bd01f0924f5d5b73.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/be7d00cc3e81bca7bd01f0924f5d5b73.woff") format("woff"), url("//db.onlinewebfonts.com/t/be7d00cc3e81bca7bd01f0924f5d5b73.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/be7d00cc3e81bca7bd01f0924f5d5b73.svg#Dancing Script") format("svg"); }
 /* Typography */
 h1, h2, h3, h4, h5, h6, figure {
 	color: #000000;
@@ -42,7 +37,7 @@ h3 {
 	margin: 0 5px 10px 0;
 }
 h4 {
-	margin: 10px 0 5px 0;
+	margin: 15px 0 5px 0;
 }
 a {
 	color: #000;
@@ -1279,8 +1274,9 @@ img {
 	background-image: url(../img/header-bg.jpg);
 }
 .banner_bottom {
-	padding: 2em 0 0em;
-	background-color: #C1C9C4;
+	padding: 2em 0 2em;
+	background-color: #DADADA;
+	
 }
 .banner_bottom h2 {
 	padding-top: 1em;
