@@ -1,4 +1,4 @@
-# Thomas & Estefania's wedding website.
+# Estefania & Thomas's wedding website.
 Website for my upcoming wedding in Antigua, Guatemala.
 
 RSVP (non-php) form done w/ Formspree.io
