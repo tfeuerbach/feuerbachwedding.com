@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Estefania & Thomas - About</title>
+	<title>Estefania & Thomas - Travel Information</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Wedding website for my wedding in Guatemala." />
 	<meta name="keywords" content="" />
@@ -35,15 +35,15 @@
 
 	</head>
 
-<body class="pt_about-us">
-	<div class="loader"></div>
-	<div class="main">
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<div class="loader"></div>
+		<div class="main">
 		<!-- Navigation -->
-		<nav class="navbar">
+		<nav class="navbar" data-spy="affix" data-options="scrolltop:false">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-2">
-						<div id="logo"><a href="index.html"></a></div>
+					<div class="col-xs-2" style="padding:.2em;">
+						<div id="logo" style="padding-top:.2em;"><img src="css/images/chick.png" style="width:50px;"></a></div>
 					</div>
 					<div class="col-xs-10 menu-2">
 						<ul class="nav navbar-nav navbar-right">
@@ -54,16 +54,16 @@
 								<a href="index.html#events">Itinerary</a>
 							</li>
 							<li>
-								<a href="questions-and-answers.html">Questions & Answers</a>
+								<a href="general-information.html">General Information</a>
 							</li>
 							<li>
-								<a href="travel-information.html">Travel Information</a>
+								<a class="page-scroll" href="#header">Travel Information</a>
 							</li>
 							<li>
 								<a href="wedding-photos.html">Wedding Photos</a>
 							</li>
 							<li>
-								<a href="index.html#invitation">RSVP</a>
+								<a href="rsvp.html">RSVP</a>
 							</li>
 						</ul>
 					</div>
@@ -71,23 +71,60 @@
 			</div>
 		</nav>
 		<!-- Section banner-top -->
-		<section class="bg section banner banner_top">
-			<div class="overlay"></div>
-			<div class="container">
+		<section id="header" data-parallax="scroll" data-image-src="img/header-bg.jpg">
+			<section class="section banner" data-paralax="scroll" data-im>
+				<div class="overlay"></div>
 				<div class="row">
 					<div class="col-md-12 text-center" style="padding-top: 25px;">
-						<h1 style="font-family: 'Courier New', Courier, monospace;">Travel Information</h1>
+						<h1 style="font-family: 'Dancing Script'">Travel Information</h1>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- Section About-us -->
-		<section id="couple" class="section couple">
-			<div class="container">
+		<section id="couple">
+			<div class="container text-center">
+				<div class="overlay" style="position: fixed;"></div>
 				<div class="row">
-					<div class="col-md-12 text-center heading">
-					    <h2>Pensativo</h2>
-						<!--<iframe src="https://bit.ly/esfaniaythomas-phh " height="800" width="800"></iframe>-->
+					<div class="text-center">
+						<h1 style="font-family: 'Dancing Script'; padding-top: 30px;">Airport</h1>
+					</div>
+				</div>
+				<div class="row" style="padding-top: 20px;">
+					<p style="font-size:17px">La Aurora International Airport (GUA) in Guatemala City is about one hour away from Antigua without traffic. We suggest accounting for potential traffic delays when booking your rides.</p>
+				</div>
+				<div class="row" style="padding-top: 20px;">
+					<h1 style="font-family: 'Dancing Script';">Shuttle Information </h1>
+				</div>
+				<div class="row"">
+					<div class="col-md-8">
+						<p style="font-size:17px; padding-top: 20px;">Antigua Tours to offer rides to and from the airport, as well as excursions for those interested. You can book and pay for your airport shuttles and excursions <a href="https://antiguatours.net/weddings/feuerbach-wedding/" style="color: blue;"><u>here</u></a>. Any questions can be emailed to Jacky at <a href="mailto: weddings@antiguatours.net" style="color: purple;">weddings@antiguatours.net</a>.</p>
+						<ul>
+							<li>
+								<h5>Note: There’s a major festival in Antigua for Semana Santa (Holy Week) on Sunday, March 26th (the day after the wedding). The only shuttle departure time this day will be at 4am. Antigua Tours is willing to try to accommodate other travel times if guests communicate that directly with them.</h5>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<a href="https://antiguatours.net/weddings/feuerbach-wedding/"><img src="img/antigua-tours.jpg" style="height: 200px; width: 200px; padding-top: 20px;"></img></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="text-center">
+						<h1 style="font-family: 'Dancing Script'; padding-top: 30px;">Hotels</h1>
+						<p>Guests can reserve from our room blocks at the following hotels. Pensativo House is our reception venue and Porta Hotel is the sister hotel located five minutes away.</p>
+					</div>
+				</div>
+				<div class="row" style="padding-bottom: 50px;">
+					<div class="col-md-6 text-center">
+					    <h2 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-top: 20px; padding-bottom: 20px; font-size: 40px;">Pensativo House</h2>
+						<img src="img/pensativo-house.jpg" style="width: 500px; height: 450px; object-fit: cover; padding-bottom: 30px;"></img>
+						<button>Book Now</button>
+					</div>
+					<div class="col-md-6 text-center">
+					    <h2 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-top: 20px; padding-bottom: 20px; font-size: 40px;">Porta Hotel</h2>
+						<img src="img/porta-hotel.jpg"" style="width: 500px; height: 450px; object-fit: cover; padding-bottom: 30px;"></img>
+						<button>Book Now</button>
 					</div>
 				</div>
 			</div>
@@ -98,7 +135,7 @@
 		    <div class="container">
 		        <div class="row">
 		            <div class="col-md-12 text-center">
-		                <h2>PLACEHOLDER</h2>
+		                <h2 style="font-family: 'Dancing Script'; padding-top: 15px;">We can't wait to celebrate with you!</h2>
 		            </div>
 		        </div>
 		        <div class="row copyright">
